@@ -78,6 +78,7 @@ class MainActivity : AppCompatActivity(), androidx.appcompat.widget.SearchView.O
     }
 
     private fun hideKeyboard(){
+        //Oculta el teclado
         val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
 
     }
